@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload</title>
+</head>
+<body>
+    <h1>File Upload</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <!-- The input field for file selection -->
+        <input type="file" name="file" id="fileInput" accept=".txt, .pdf, .png, .jpg, .jpeg, .gif" style="display:none;">
+        
+        <!-- A button to trigger file input click event -->
+        <button type="button" onclick="document.getElementById('fileInput').click()">Select File</button>
+        
+        <!-- Display the selected file name -->
+        <span id="selectedFileName"></span>
+        
+        <input type="submit" value="Upload">
+    </form>
+
+    <script>
+        // Display the selected file name
+        document.getElementById('fileInput').addEventListener('change', function() {
+            document.getElementById('selectedFileName').innerText = this.files[0].name;
+        });
+    </script>
+</body>
+</html>
