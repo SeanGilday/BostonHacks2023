@@ -1,0 +1,113 @@
+.group-1, .group-1 * {
+    box-sizing: border-box;
+    }
+.group-1 {
+   width: 439.22px;
+    height: 797px;
+   
+           position: static;
+   
+       }
+
+.rectangle-23 {
+   background: rgba(43, 64, 138, 0.52);
+   
+   border-style: solid;
+    
+   border-color: #000000;
+   
+   border-width: 1px;
+   
+   width: 439.22px;
+    height: 797px;
+   
+           position: absolute;
+    left: -217px;
+   top: -1062px;
+   
+       box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+   }
+
+.creatathon {
+   color: #ffffff;
+   text-align: left;
+   font: 400 32px 'Inter-Regular', sans-serif;
+   
+           position: absolute;
+    left: -148.7px;
+   top: -861.77px;
+   
+       width: 276.35px;
+    height: 55.95px;
+   }
+
+.showcase-your-creative-side {
+   color: #ffffff;
+   text-align: left;
+   font: 400 32px 'Inter-Regular', sans-serif;
+   
+           position: absolute;
+    left: -148.7px;
+   top: -765.58px;
+   
+       width: 303.67px;
+    height: 49.08px;
+   }
+
+.create-account-active {
+   width: 299.47px;
+    height: 54.97px;
+   
+           position: absolute;
+    left: -148.7px;
+   top: -434.8px;
+   
+       }
+
+.otp-active {
+   border-radius: 10px;
+   
+   border-style: solid;
+    
+   border-color: #000000;
+   
+   border-width: 5px;
+   
+   width: 285px;
+    height: 56px;
+   
+           position: absolute;
+    left: calc(50% - 142.73px);
+   top: calc(50% - 28.48px);
+   
+       box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+   }
+
+.rectangle-3 {
+   border-radius: 0px;
+   height: auto;
+   
+           position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+   bottom: 0%;
+    top: 0%;
+    height: 100%;
+   
+       overflow: visible;
+   }
+
+.create-an-account {
+   color: #1e1e1e;
+   text-align: left;
+   font: 400 14px 'Inder-Regular', sans-serif;
+   
+           position: absolute;
+    left: calc(50% - 60.5px);
+   bottom: 33.93%;
+    top: 33.93%;
+    height: 32.14%;
+   
+       }
+
